@@ -9,7 +9,7 @@ namespace learnFromHome
             Console.WriteLine("Assignment 1. This program calculate the quadratic equation");
             // Declaring of variables
             double d, x1, x2;
-            Console.WriteLine("Enter integer value of a: ");
+            Console.WriteLine("Enter integer value of a: "); //check your readline section of your code again. it only readys the value of a and ignores the others
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter integer value of b: ");
             int b = Convert.ToInt32(Console.ReadLine());
@@ -34,7 +34,7 @@ namespace learnFromHome
             {
                 Console.WriteLine("The values of x1 and x2 are imaginary or no solution ");
             }
-            Console.WriteLine(" ");
+            Console.WriteLine(" "); //Check this first assignment again
 
             // // Assignment 2
             Console.Write("Assignment 2.");
@@ -47,7 +47,8 @@ namespace learnFromHome
             // calculating the value of celsius 
             cel = 5.0 / 9.0 * ( fahrenheit - 32.0);
             Console.WriteLine("The value of fahrenheit: {0}, is equivalent to celsius of: {1}", fahrenheit,cel);
-            Console.WriteLine(" ");
+            Console.WriteLine(" "); //Assignment 2 is perfect
+            
 
             // // Assignment 3
             // This program check if user input is a palindrome
@@ -57,7 +58,7 @@ namespace learnFromHome
             int userInput, remainder, n;
             int isPalin = 0;
             Console.Write("Enter an integer: ");
-            userInput = Convert.ToInt32(Console.ReadLine());
+            userInput = Convert.ToInt32(Console.ReadLine()); //check this readline section again... it is not reading your input or your input was not put to use in your program
             n = userInput;
             // Compute the input integer
             while (n != 0)
@@ -73,7 +74,7 @@ namespace learnFromHome
             }
             else
             {
-                Console.WriteLine("The inputed number: {0}, is not a palindrome.", isPalin);
+                Console.WriteLine("The inputed number: {0}, is not a palindrome.", isPalin); //Check assignment 3 again
             }
             
         }
